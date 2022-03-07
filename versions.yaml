@@ -329,6 +329,12 @@ deprecated-versions:
     deprecated-in: v1.23.0
     removed-in: v1.26.0
     component: k8s
+  - version: policy/v1beta1
+    kind: PodSecurityPolicy
+    replacement-api: pod-security.kubernetes.io/v1beta1
+    deprecated-in: v1.21.0
+    removed-in: v1.25.0
+    component: k8s
   - version: rbac.istio.io
     kind: AuthorizationPolicies
     deprecated-in: v1.4.0
